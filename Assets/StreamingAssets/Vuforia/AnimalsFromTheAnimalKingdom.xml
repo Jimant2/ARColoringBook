@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="humpback-whale" size="0.215000 0.133816" />
     <ImageTarget name="BEE" size="0.215000 0.120938" />
     <ImageTarget name="pufferfish-cute" size="0.215000 0.143333" />
   </Tracking>
