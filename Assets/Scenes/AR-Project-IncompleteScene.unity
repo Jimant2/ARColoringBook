@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -493,30 +493,30 @@ MonoBehaviour:
     for their vital role in pollinating flowering plants, which helps in the production
     of fruits, vegetables, and other crops.
 
-    
+
 
     There are thousands of species
     of bees worldwide, with the most well-known being the honeybee (genus Apis) and
     bumblebee. These bees live in organized colonies, and the honeybee is famous
     for producing honey and beeswax.
 
-    
 
-    Bees have specialized body parts
-    for collecting nectar and pollen, including pollen baskets on their hind legs
-    and a long proboscis for sipping nectar from flowers.
 
-    
+    Bees have specialized body parts for
+    collecting nectar and pollen, including pollen baskets on their hind legs and
+    a long proboscis for sipping nectar from flowers.
 
-    Bees communicate
-    within their colonies through complex dances and pheromones to convey information
-    about food sources and the location of new nests.
 
-    
 
-    The global population
-    of bees is facing threats from factors such as habitat loss, pesticide exposure,
-    and climate change. The decline of bee populations can have significant ecological
+    Bees communicate within
+    their colonies through complex dances and pheromones to convey information about
+    food sources and the location of new nests.
+
+
+
+    The global population of bees
+    is facing threats from factors such as habitat loss, pesticide exposure, and
+    climate change. The decline of bee populations can have significant ecological
     and agricultural consequences due to their role as pollinators.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -631,6 +631,86 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &741488674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 741488677}
+  - component: {fileID: 741488676}
+  - component: {fileID: 741488675}
+  m_Layer: 0
+  m_Name: Wolf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &741488675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741488674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 741488676}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: wolf
+  mDatasetName: Vuforia/AnimalsFromTheAnimalKingdom.xml
+  mCastedBehaviour: {fileID: 741488676}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &741488676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741488674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PreviewVisible: 1
+  RuntimeOcclusion: 0
+  RuntimeCollider: 0
+  mTrackableName: wolf
+  mInitializedInEditor: 1
+  mDataSetPath: Vuforia/AnimalsFromTheAnimalKingdom.xml
+  mAspectRatio: 1.1073349
+  mImageTargetType: 0
+  mWidth: 0.215
+  mHeight: 0.238077
+  mRuntimeTexture: {fileID: 0}
+  mMotionHint: 1
+  mTrackingOptimization: 0
+  mTrackingOptimizationNeedsUpgrade: 0
+  mPreview: {fileID: 741488675}
+--- !u!4 &741488677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741488674}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2127841532}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1286890549 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d3ac9624ca8d4be469a3eddc6ab0c03c,
@@ -698,34 +778,33 @@ MonoBehaviour:
     for their distinctive humpbacked appearance, characterized by a large, knobby
     protrusion on their dorsal fin.
 
-    
 
-    They are one of the most acrobatic
-    and vocal of all whale species, known for their spectacular breaches, tail slaps,
+
+    They are one of the most acrobatic and
+    vocal of all whale species, known for their spectacular breaches, tail slaps,
     and intricate songs that can last for hours. Humpback whale songs are thought
     to be a form of communication among males during the breeding season.
 
-    
+
 
     Humpback
     whales are found in oceans worldwide and undertake long-distance migrations.
     They are known for their annual migration between polar feeding areas and tropical
     breeding and calving grounds.
 
-    
 
-    These whales are filter feeders and
-    primarily consume small fish, krill, and plankton by using their baleen plates
-    to strain food from the water. They can engulf large volumes of water in a single
-    mouthful.
 
-    
+    These whales are filter feeders and primarily
+    consume small fish, krill, and plankton by using their baleen plates to strain
+    food from the water. They can engulf large volumes of water in a single mouthful.
 
-    Humpback whales have made a remarkable recovery since
-    being protected from commercial whaling in the mid-20th century. They are now
-    considered a conservation success story, with their populations rebounding, although
-    they still face threats such as entanglement in fishing gear, ship strikes, and
-    habitat degradation.'
+
+
+    Humpback
+    whales have made a remarkable recovery since being protected from commercial
+    whaling in the mid-20th century. They are now considered a conservation success
+    story, with their populations rebounding, although they still face threats such
+    as entanglement in fishing gear, ship strikes, and habitat degradation.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1619,6 +1698,81 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 2101887458}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!1001 &2127841531
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 741488677}
+    m_Modifications:
+    - target: {fileID: 100132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+      propertyPath: m_Name
+      value: Wolf
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+--- !u!4 &2127841532 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74,
+    type: 3}
+  m_PrefabInstance: {fileID: 2127841531}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1628,3 +1782,4 @@ SceneRoots:
   - {fileID: 79008102}
   - {fileID: 1934392070}
   - {fileID: 2101887459}
+  - {fileID: 741488677}
