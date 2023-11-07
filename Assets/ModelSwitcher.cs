@@ -1,10 +1,10 @@
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class ModelSwitcher : MonoBehaviour
 {
-    public GameObject[] models; // Array of 3D model GameObjects
-    public Text[] texts; // Array of Text GameObjects
+    public GameObject[] models; // Array of model parent GameObjects
+    public TextMeshProUGUI[] texts; // Array of TextMeshPro Text elements
 
     private int currentModelIndex = 0;
 
@@ -14,19 +14,16 @@ public class ModelSwitcher : MonoBehaviour
         for (int i = 1; i < models.Length; i++)
         {
             models[i].SetActive(false);
-            texts[i].gameObject.SetActive(false);
         }
     }
 
     public void SwitchModel(int newIndex)
     {
-        // Hide the current model and its associated text
+        // Hide the current model
         models[currentModelIndex].SetActive(false);
-        texts[currentModelIndex].gameObject.SetActive(false);
 
         // Show the new model and its associated text
         models[newIndex].SetActive(true);
-        texts[newIndex].gameObject.SetActive(true);
 
         // Update the current model index
         currentModelIndex = newIndex;
