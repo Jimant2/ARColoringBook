@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.ptc.vuforia.engine": {
-      "version": "file:com.ptc.vuforia.engine-10.17.4.tgz",
+      "version": "file:com.ptc.vuforia.engine-10.18.4.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -82,7 +82,7 @@
     },
     "com.unity.inputsystem": {
       "version": "1.7.0",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"
@@ -225,7 +225,7 @@
     },
     "com.unity.xr.core-utils": {
       "version": "2.2.3",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.xr": "1.0.0"
@@ -281,7 +281,7 @@
     },
     "com.unity.xr.openxr": {
       "version": "1.8.2",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.xr.management": "4.0.1",
