@@ -279,17 +279,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d3ac9624ca8d4be469a3eddc6ab0c03c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.02
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d3ac9624ca8d4be469a3eddc6ab0c03c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.02
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d3ac9624ca8d4be469a3eddc6ab0c03c,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.02
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d3ac9624ca8d4be469a3eddc6ab0c03c,
         type: 3}
@@ -345,6 +345,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HumpBack
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d3ac9624ca8d4be469a3eddc6ab0c03c,
+        type: 3}
+      propertyPath: m_TagString
+      value: RotatableObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1107,6 +1112,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: _PufferFish
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9cc6e67f864208409f3ce5c25aeb961,
+        type: 3}
+      propertyPath: m_TagString
+      value: RotatableObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1316,6 +1326,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bee-With-Texture
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c46cdfff1521d484d82ca7658079d283,
+        type: 3}
+      propertyPath: m_TagString
+      value: RotatableObject
       objectReference: {fileID: 0}
     - target: {fileID: 7107617659793189130, guid: c46cdfff1521d484d82ca7658079d283,
         type: 3}
@@ -1702,17 +1717,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wolf
       objectReference: {fileID: 0}
+    - target: {fileID: 100132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
+      propertyPath: m_TagString
+      value: RotatableObject
+      objectReference: {fileID: 0}
     - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 400132, guid: 91d2fb8fbb39fab44b86ce07763f1e74, type: 3}
       propertyPath: m_LocalPosition.x

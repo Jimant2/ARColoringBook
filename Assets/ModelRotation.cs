@@ -5,6 +5,8 @@ public class ModelRotation : MonoBehaviour
     private Vector2 touchStart;
     private Vector2 touchDelta;
 
+    public string rotatableTag = "RotatableObject";
+
     void Update()
     {
         if (Input.touchCount == 1)
@@ -20,8 +22,10 @@ public class ModelRotation : MonoBehaviour
                 touchDelta = touch.position - touchStart;
                 touchStart = touch.position;
 
-                // Rotate the model based on touch movement
-                transform.Rotate(Vector3.up, -touchDelta.x * 0.5f, Space.World);
+                if (gameObject.CompareTag(rotatableTag))
+                {
+                    transform.Rotate(Vector3.up, -touchDelta.x * 0.5f, Space.World);
+                }
             }
         }
     }
